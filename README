@@ -1,0 +1,15 @@
+Programa que captura N imagenes de N camaras point grey hecho en C, ademas captura datos de GPS e IMU
+
+ 8 abril programa que captura imagenes usando 2 camaras point grey
+ 8 abril, programa que integra la captura de datos con la toma de imagenes
+ 9 abril, programa integra la captura de datos (2 camaras y sensores) y guarda los resultados en la carpeta resultados
+16 abril, programa funciona ok, transferencia de video ok, falta probar con acelerometros y gps.
+17 abril, corregido el formato de almacenamiento de las fotos (nombre)
+24 abril, aumnetado seleccion de shuttle para captura de imagenes y transmision de video
+29 abril,  IMU y GPS funcionan de manera opcional, todo ok
+06 julio,  se agrego impresion de "time since epoch"
+Formato del archivo de salida
+
+numero, nombre imagen 1, nombre imagen 2, roll, pitch, numero de satelites, latitude, longitude
+
+roll y pitch medido en grados sexagesimales.
